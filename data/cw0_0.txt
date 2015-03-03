@@ -1,0 +1,21 @@
+{	
+	"id" : "0.0",
+	"layout" : [
+		[" ", "X", "X", "X", "X"],
+		["X", " ", "X", " ", " "],
+		["X", "X", "X", "X", " "],
+		["X", " ", "X", " ", " "],
+		[" ", "X", "X", "X", "X"]		
+	],
+	"clues" : [
+		[
+			{"x" : 1, "y" : 0, "clue" : "Espacio de tierra comprendido entre ciertos límites."},
+			{"x" : 0, "y" : 2, "clue" : "Cada uno de los distintos estados sucesivos de un fenómeno natural o histórico, o de una doctrina, negocio, etc."},
+			{"x" : 1, "y" : 4, "clue" : "Referente a los huesos."}
+		],
+		[
+			{"x" : 2, "y" : 0, "clue" : "Flor del rosal, notable por su belleza, la suavidad de su fragancia y su color, generalmente encarnado poco subido. Pl."},
+			{"x" : 0, "y" : 1, "clue" : "Letra del alfabeto."}
+		]
+	]
+}

@@ -1,0 +1,105 @@
+textarea, input { outline: none; }
+#palabrejas{
+	position: relative;
+}
+
+.tile{
+	background-color : #fff;
+	display : inline-block;
+	float : left;
+	position : relative
+}
+.tile.shadowed{
+	background-color:#ff9;
+}
+.tile.selected{
+	background-color:#f93;
+}
+.tile input[type=text]{
+	border:0;
+	background-color: transparent;
+	width:80%;
+	margin-left:4px;
+	margin-left:2px;
+	font-size:30px;
+	text-transform: uppercase;
+	text-align:center;
+}
+.numeral{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:8px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.cw-container{
+	float:left;
+	padding:30px;
+}
+.cw-wrapper{
+	margin:auto;
+}
+#clues{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:80%;
+	float:left;
+	width:400px;
+	margin-left:20px;
+}
+#clues ul{
+	list-style-type: none;
+}
+#clues ul li{
+	line-height:15px;
+}
+#clues ul li.highlighted{
+	font-weight: bold;
+	background:#ccc;
+}
+#clues ul li span{
+	display:inline-block;
+	margin-right:10px;
+	font-weight:bold;
+}
+#clues ul li span:after{
+	content:".";	
+}
+.clue-container h3{
+	font-size:18px;
+	font-weight: bold;
+	margin: 15px 0;
+}
+#buttons{
+	margin:20px;
+	float:right;
+}
+
+/* Bordes para los void */
+.void.top{
+	border-top:2px solid #aaa;
+}
+.void.left{
+	border-left:2px solid #aaa;
+}
+.tile.void{
+	border-right:2px solid #aaa;
+	border-bottom:2px solid #aaa;
+	background-color : #aaa;
+}
+/* Bordes para los tiles usados en el crucigrama */
+.active.top{
+	border-top:2px solid blue;
+}
+.active.left{
+	border-left:2px solid blue;
+}
+.tile.active{
+	border-right:2px solid blue;
+	border-bottom:2px solid blue;
+}
+.void.right{
+	border-right:2px solid blue;
+}
+.void.bottom{
+	border-bottom:2px solid blue;
+}
